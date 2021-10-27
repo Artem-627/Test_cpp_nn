@@ -4,8 +4,10 @@
 using namespace std;
 
 int main() {
-	int neurons[2] = { 728, 10 };
-	Model model(neurons[]);
+	Model model(3);
+	//model.add(728);
+	//model.add(50);
+	//model.add(10);
 	
 	return 0;
 }

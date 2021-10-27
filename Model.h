@@ -6,19 +6,9 @@ using namespace std;
 
 class Model {
 private:
-	vector<double> neurons;
-
-	int amount;
-	int neurons_info;
+	int amount_layers;
 public:
-	Model(int amount, int num, vector<double> n[]) {
-		th_ amount = amount;
-		th_ neurons[amount];
-		for (int i = 0; i < amount; i++) {
-			th_ neurons[i].push_back(n[i]);
-		}
-	}
-	void add(int num[]) {
-		
+	Model(int amount_layers) {
+		th_ amount_layers = amount_layers;
 	}
 };
